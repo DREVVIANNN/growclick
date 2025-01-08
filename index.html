@@ -1,155 +1,221 @@
 <!DOCTYPE html>
-
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="shortcut icon" type="x-icon" href="neko.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
     <title>GrowClick</title>
-    <!-- Linking Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
-    <!-- Linking Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    
-    <!-- Header / Navbar -->
-    <header>
-      <nav class="navbar">
-        <a href="https://chat.whatsapp.com/H9cizZ1PWjZAB0YWD5OLRp" class="nav-logo">
-          <h2 class="logo-text">GrowClick</h2>
-        </a>
+</head>
 
-        <ul class="nav-menu">
-          <button id="menu-close-button" class="fas fa-times"></button>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="https://download.gtpshost.com/GrowClick" class="nav__logo">GrowClick</a>
+            </div>
 
-          <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#about" class="nav-link">Info</a>
-          </li>
-                    <li class="nav-item">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Leaderboard</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Follow Us</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                </ul>
+            </div>
 
-            <a href="#testimonials2" class="nav-link">Server Own</a>
-
-          </li>
-                                      
-                        <li class="nav-item">
-
-
-
-            <a href="#contact" class="nav-link">Credit</a>
-
-          </li>
-        </ul>
-
-        <button id="menu-open-button" class="fas fa-bars"></button>
-      </nav>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
     </header>
 
-    <main>
-      <!-- Hero section -->
-      <section class="hero-section">
-        <div class="section-content">
-          <div class="hero-details">
-            <h2 class="title">GrowClick</h2>
-            <h3 class="subtitle">Join GrowClick!</h3>
-            <p class="description">Server By: Firdaus</p>
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Welcome To<br><span class="home__title-color">GrowClick</span>
+                    <br>
+                </h1>
 
-            <div class="buttons">
-              <a href="https://download.gtpshost.com/GrowClick" class="button order-now">Host Link</a>
-              <a href="https://chat.whatsapp.com/H2vmEV1kriQ8Bry3X27Zbx" class="button contact-us">Join Group</a>
+                <a href="https://download.gtpshost.com/GrowClick" class="button">Host Link</a>
             </div>
-          </div>
-          <div class="hero-image-wrapper">
-            <img src="growclick.png" alt="growclick" class="hero-image" />
-          </div>
-        </div>
-      </section>
-      
-      
-      
-      <!-- About section -->
-      <section class="about-section" id="about">
-        <div class="section-content">
-          <div class="about-image-wrapper">
-            <img src="growclick.png" alt="" class="about-image" />
-          </div>
-          <div class="about-details">
-            <h2 class="section-title">Info</h2>
-            <p class="text">Growtopia Private Server Adalah Game Yang bisa kalian mainkan.
+
+            <div class="home__social">
+                <a href="https://chat.whatsapp.com/H2vmEV1kriQ8Bry3X27Zbx" class="home__social-icon"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://discord.gg/7rUZRtup" class="home__social-icon"><i class='bx bxl-discord'></i></a>
+                <a href="https://www.tiktok.com/@growclickps?_t=ZS-8sduqFSz1Gh&_r=1" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 
+                            311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 
+                            237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 
+                            466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 
+                            219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 
+                            311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 
+                            237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 
+                            466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 
+                            219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60" href="growclick.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">GrowClick</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Apa itu GTPS?</h2>Growtopia Private Server Adalah Game Yang bisa kalian mainkan.
 Growtopia Private Server Tidak berbeda dengan growtopia,
-Di growtopia private server kalian bisa mendapatkan semua barang dengan gratis.</p>
-            <div class="social-link-list">
-              <a href="https://discord.gg/7rUZRtup" class="social-link"><i class="fa-brands fa-discord"></i></a>
-              <a href="https://wa.me/+62 838-3946-0879" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
-              <a href="https://www.tiktok.com/@growclickps?_t=ZS-8sduqFSz1Gh&_r=1" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+Di growtopia private server kalian bisa mendapatkan semua barang dengan gratis.
+Growtopia Private Server pertama kali di perkenalkan pada tahun 2018-Agustus
+                    <p class="skills__text"></p>
+            <h2 class="section-title">Leaderboard</h2>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-number skills__icon'></i>
+                            <span class="skills__name">1. ???</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">Score: 0</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl- skills__icon'></i>
+                            <span class="skills__name">2. ???</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">Score: 0</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl- skills__icon'></i>
+                            <span class="skills__name">3. ???</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">Score: 0</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl- skills__icon'></i>
+                            <span class="skills__name">4. ???</span>
+                        </div>
+                        <div class="skills__bar skills__react">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">Score: 0</span>
+                        </div>
+                    </div>
+                                        <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl- skills__icon'></i>
+                            <span class="skills__name">5. ???</span>
+                        </div>
+                        <div class="skills__bar skills__react2">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">Score: 0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                  <img class="skills__img" src="growclick.jpg" alt="" />
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
-            
-              
-                    <!-- Testimonials section -->
+        </section>
 
-      <section class="testimonials-section" id="testimonials2">
+        <!--===== portfolio =====-->
+        <section class="work section" id="portfolio">
 
-        <h2 class="section-title">Server By</h2>
-        <div class="section-content">
-          <div class="slider-container swiper">
-            <div class="slider-wrapper">
-              <ul class="testimonials-list swiper-wrapper">
-                <li class="testimonial swiper-slide">
-                  <img src="owner.jpg" alt="User" class="user-image" />
-                  <h3 class="name1"> Firdaus<i class="fas fa-check-circle blue-tick"></i>🛠ㅤ</h3>
-                  <i class="feedback">"Owner Server"</i>
-                </li>
-              </ul>
+            <h2 class="section-title">Follow Us</h2>
+            <div class="work__container bd-grid">
+                <a href="https://discord.gg/7rUZRtup" class="work__img">
+                    <img src="discord.png" alt="GrowClick">
+                </a>
+                                <a href="https://chat.whatsapp.com/H2vmEV1kriQ8Bry3X27Zbx" class="work__img">
 
-              <div class="swiper-pagination"></div>
-              <div class="swiper-slide-button swiper-button-prev"></div>
-              <div class="swiper-slide-button swiper-button-next"></div>
+                    <img src="whatsapp.png" alt="GrowClick">
+
+                </a>
+                                                <a href="https://www.tiktok.com/@growclickps?_t=ZS-8sduqFSz1Gh&_r=1" class="work__img">
+
+
+
+                    <img src="tiktok.png" alt="GrowClick">
+
+                </a>
             </div>
-          </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="owner.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Firdaus</h2>
+                    <p class="about__text">Hello my name is Firdaus. Owner of GrowClick PS #growclickps #growclick #growclickbest!</p>
+                    <a href="http://Wa.me/+62 838-3946-0879" class="button">Contact Him!</a>
+                </div>
+            </div>
+        </section>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">GrowClick</p>
+        <div class="footer__social">
+            <a href="https://chat.whatsapp.com/H2vmEV1kriQ8Bry3X27Zbx" class="footer__icon"><i class='bx bxl-whatsapp'></i></a>
+            <a href="https://discord.gg/7rUZRtup" class="footer__icon"><i class='bx bxl-discord'></i></a>
+            <a href="https://www.tiktok.com/@growclickps?_t=ZS-8sduqFSz1Gh&_r=1" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
         </div>
-      </section>
-
-      <!-- Contact section -->
-      <section class="contact-section" id="contact">
-        <h2 class="section-title">Credit</h2>
-        <div class="section-content">
-          <ul class="contact-info-list">
-            <li class="contact-info">
-            <li class="contact-info">
-              <i class="fa-regular fa-envelope"></i>
-              <p>growclickps@gmail.com</p>
-            </li>
-            <li class="contact-info">
-              <i class="fa-solid fa-phone"></i>
-              <p class="text2">+62 838-3946-0879</p>
-            </li>
-            <li class="contact-info">
-              <i class="fa-regular fa-clock"></i>
-              <p>Giveaway: 20.00-00.00WIB</p>
-            </li>
-            <li class="contact-info">
-              <i class="fa-solid fa-globe"></i>
-              <p>Web By: Drevv<i class="fas fa-check-circle blue-tick"></i>🛠</p>
-            </li>
-          </ul>
+        <p class="footer__copy">2025 &#169; GrowClick. All rigths reserved</p>
+    </footer>
 
 
-        </div>
-      </section>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-    </main>
+    <!--===== MAIN JS =====-->
+    <script src="main.js"></script>
+</body>
 
-    <!-- Linking Swiper script -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <!-- Linking custom script -->
-    <script src="script.js"></script>
-  </body>
 </html>
+
+
